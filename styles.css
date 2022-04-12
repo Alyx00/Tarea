@@ -1,0 +1,235 @@
+@import url('http://fonts.cdnfonts.com/css/cera-round-pro');
+.barra_nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    width: 90vw;
+    margin: -8px;
+}
+.list_1 {
+    padding: 15px;
+    padding-top: 11px;
+    font-family: 'Cera Round Pro', sans-serif;
+    padding-right: 57px;
+    font-size: 45px;
+}
+.list_1:hover i {
+    transition: 1.5s ;
+    transform: rotate(360deg);
+}
+.list_1 i {
+    transition: 1.5s;
+}
+.links-barra_nav{
+    text-decoration: none;
+    color: #000;
+}
+.list{
+    padding: 15px;
+    font-family: 'Cera Round Pro', sans-serif;
+    font-size: 20px;
+}
+.buttom{
+    width: 30px;
+    height: 25px;
+    border: 2px solid rgb(46, 46, 46);
+    border-right: none;
+    background: none;
+}
+.input{
+    width: 150px;
+    height: 17px;
+    border: 2px solid rgb(46, 46, 46);
+    outline: none;
+    border-left: none;
+    transition: 1s width;
+    font-family: 'Cera Round Pro',sans-serif;
+    padding: 2px;
+}
+.input:focus{
+    width: 180px;
+    transition: 1s;
+}
+.links-barra_nav:hover{
+    text-decoration: underline;
+}
+.barra_conteiner{
+    display: flex;
+    flex-direction: row;
+}
+#extra{
+    padding-bottom: 40px;
+}
+.account_conteiner{
+    width: 85px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.user_2{
+    display: none;
+}
+.acount:hover > .user_1{
+    display: none;
+}
+.acount:hover > .user_2 {
+    display: block;
+}
+.acount{
+    display: flex;
+}
+.acount:hover > .tag {
+    visibility: visible;
+    transition: 0.5s .5s;
+    background: #183153;
+    margin-left: -90px;
+}
+.acount:hover > .tag::before {
+    visibility: visible;
+    transition: 0.5s .5s;
+    background: #183153;
+}
+.tag{
+    font-size: 16px;
+    font-family: 'Cera Round Pro',sans-serif;
+    margin: 3px;
+    visibility: hidden;
+    transition:  .5s .5s;
+    background: #ffffff;
+    border-radius: 2px;
+    padding: 2px;
+    color: #fff;
+    position: absolute;
+    margin-left: -75px;
+    width: 70px;
+    height: 22px;
+    padding-top: 2px;
+    text-align: center;
+}
+.tag:before {
+    content: "";
+    position: absolute;
+    margin: 8px;
+    margin-left: 63px;
+    top: 0px;
+    height: 11px;
+    transition: .5s .5s;
+    width: 7px;
+    background: none;
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+}
+.acount_registrer{
+    position: absolute;
+    margin-left: -220px;
+    margin-top: -500px;
+    transition: 1s;
+}
+.acount_registrer{
+    background: #313131;
+    color: rgb(255, 255, 255);
+    font-family: 'Cera Round Pro',sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s 1s;
+    z-index: 1;
+}
+
+.acount_registrer ul{
+    list-style: none;
+}
+.acount_registrer input {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #ffffff;
+    background: none;
+    color: #fff;
+}
+.iconos{
+    outline: none;
+    height: 34px;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin-left: -38px;
+    background: none;
+    color: #fff;
+}
+.text{
+    font-size: 17px;
+    margin-right: 110px;
+    text-align: left ;
+    margin-top: 20px;
+}
+.enviar{
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
+    padding: 6px;
+    padding-right: 9px;
+    padding-left: 9px;
+    margin-top: 30px;
+    margin-left: -40px;
+    width: 160px;
+    height: 40px;
+    font-size: 17px;
+    transition: .5s;
+}
+.inicia_sesion{
+    font-size: 15px;
+}
+.m{
+    color: rgb(0, 153, 255);
+}
+.enviar:hover{
+    transition: .5s;
+    background: #fff;
+    color: #313131;
+}
+.o{
+    background: #313131;
+}
+.acount:active > .acount_registrer {
+    position: absolute;
+    margin-left: -220px;
+    margin-top: -35px;
+    transition: .35s ;
+    z-index: 1;
+}
+.acount_registrer:hover {
+    position: absolute;
+    margin-left: -220px;
+    margin-top: -35px;
+    z-index: 1;
+}
+.bars_conteiner{
+    display: none;
+}
+#logo{
+    display: none;
+}
+
+.li {
+    list-style-type: none;
+    position: relative;
+    width: 120px;
+    transition: 1s;
+}
+
+.li .a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    width: 120px;
+    height: 30px;
+    border: 1px solid #000;
+    color: #000;
+    transition: 1s;
+}
